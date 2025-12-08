@@ -1,0 +1,19 @@
+{
+    "name": "ArcaneOnyx.Unity-GameLocalization.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3dc5b907e34a24044b423a3f22ebfa4a",
+        "GUID:d765ce81c7b63ca48b95cd88770295f7",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

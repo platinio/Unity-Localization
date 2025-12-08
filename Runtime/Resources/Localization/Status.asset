@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9097668831561656358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Necromancer II
+  m_EditorClassIdentifier: 
+  Name: Necromancer II
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_5
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-7635271893458474879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Necromancer I
+  m_EditorClassIdentifier: 
+  Name: Necromancer I
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_4
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-6514951270672164619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Necromancer III
+  m_EditorClassIdentifier: 
+  Name: Necromancer III
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_2
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-5698823694364671022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Salute
+  m_EditorClassIdentifier: 
+  Name: Salute
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_8
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Hola esto es un saludo!
+--- !u!114 &-3714626358870425412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Necromancer I
+  m_EditorClassIdentifier: 
+  Name: Necromancer I
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_0
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-1404644445198598693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Necromancer IV
+  m_EditorClassIdentifier: 
+  Name: Necromancer IV
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_3
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed52d75fc17485fb9052692d38d3ad0, type: 3}
+  m_Name: Status
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: -3714626358870425412}
+  - {fileID: 1940858399620720138}
+  - {fileID: -6514951270672164619}
+  - {fileID: -1404644445198598693}
+  - {fileID: -7635271893458474879}
+  - {fileID: -9097668831561656358}
+  - {fileID: 8852839854670997451}
+  - {fileID: 4974371133434463439}
+  - {fileID: -5698823694364671022}
+  - {fileID: 6842177576070901258}
+  id: 10
+--- !u!114 &1940858399620720138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Necromancer II
+  m_EditorClassIdentifier: 
+  Name: Necromancer II
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_1
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &4974371133434463439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Necromancer IV
+  m_EditorClassIdentifier: 
+  Name: Necromancer IV
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_7
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &6842177576070901258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Salute
+  m_EditorClassIdentifier: 
+  Name: Salute
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_9
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Hi this is a salute!
+--- !u!114 &8852839854670997451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Necromancer III
+  m_EditorClassIdentifier: 
+  Name: Necromancer III
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_6
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
