@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using ArcaneOnyx.AdvancedDropdown;
 using ArcaneOnyx.ScriptableObjectDatabase;
 using UnityEditor;
@@ -6,59 +8,42 @@ using UnityEngine;
 
 namespace ArcaneOnyx.Localization
 {
-    [CustomPropertyDrawer(typeof(LocalizationSelector))]
-    public class LocalizationSelectorDrawer : PropertyDrawer
+    [CustomPropertyDrawer(typeof(LocalizationKeySelector))]
+    public class LocalizationKeySelectorDrawer : PropertyDrawer
     {
-         public override void OnGUI (Rect position,SerializedProperty property,GUIContent label) 
+        public override void OnGUI (Rect position,SerializedProperty property,GUIContent label) 
         {
             EditorGUI.BeginProperty(position,label,property);
+            string[] dropdownOptions = GetDropdownOptions();
             
-            Rect labelRect = position;
-            labelRect.width = position.width / 2.0f;
+            int index = EditorGUI.Popup(position, property.displayName, GetSelectedIndex(property, dropdownOptions), dropdownOptions);
+            property.stringValue = index == 0? null : dropdownOptions[index];
             
-            Rect dropdownRect = position;
-            dropdownRect.x += position.width / 2.0f;
-            dropdownRect.width = position.width / 2.0f;
-            
-            Rect buttonDropdownRect = position;
-            buttonDropdownRect.width = 25;
-            buttonDropdownRect.x += (position.width / 2.0f) - (buttonDropdownRect.width) - 5.0f;
-
-            Rect iconRect = buttonDropdownRect;
-            iconRect.width = 30;
-            iconRect.x -= buttonDropdownRect.width + 10;
-
-            buttonDropdownRect.height /= 1.5f;
-            
-            EditorGUI.LabelField(labelRect, label);
-            DrawDatabaseDropDown(dropdownRect, property);
-            
-            dynamic item = property.objectReferenceValue;
-
-            if (item != null && item.Icon != null)
-            {
-                Sprite sprite = item.Icon;
-                GUI.DrawTexture(iconRect, sprite.texture);
-            }
-
-            if (property.objectReferenceValue != null && GUI.Button(buttonDropdownRect, "►"))
-            {
-                
-                Editor editorInstance = Editor.CreateEditor(property.objectReferenceValue);
-
-                try
-                {
-                    ((dynamic)editorInstance).OpenInEditorWindow();
-                }
-                catch
-                {
-                    EditorGUIUtility.PingObject(property.objectReferenceValue);
-                }
-
-                Object.DestroyImmediate(editorInstance);
-            }
-
             EditorGUI.EndProperty();
+        }
+
+        private int GetSelectedIndex(SerializedProperty property, string[] options)
+        {
+            string selected = property.stringValue;
+            if (string.IsNullOrEmpty(selected)) return 0;
+            
+            int index = Array.IndexOf(options, selected);
+            return index == -1 ? 0 : index;
+        }
+
+        private string[] GetDropdownOptions()
+        {
+            HashSet<string> dropdownOptions = new();
+            var localizationItems = ScriptableDatabaseUtil.GetAllItems<LocalizationItem, LocalizationDatabase>();
+
+            dropdownOptions.Add("Null");
+            
+            foreach (var localizationItem in localizationItems)
+            {
+                dropdownOptions.Add(localizationItem.Key);
+            }
+
+            return dropdownOptions.ToArray();
         }
 
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label)

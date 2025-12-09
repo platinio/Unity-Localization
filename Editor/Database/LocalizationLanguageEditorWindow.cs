@@ -6,7 +6,7 @@ namespace ArcaneOnyx.Localization
 {
     public class LocalizationLanguageEditorWindow : DatabaseEditorWindow<LocalizationLanguageDatabase, LocalizationLanguage>
     {
-        [MenuItem("Window/Localization/Languages")]
+        [MenuItem("Window/Localization/Languages Editor")]
         public static void OpenEditor()
         {
             LocalizationLanguageEditorWindow wnd = GetWindow<LocalizationLanguageEditorWindow>();

@@ -4,7 +4,7 @@ using UnityEditor;
 namespace ArcaneOnyx.Localization
 {
     [CustomEditor(typeof(LocalizationDatabase))]
-    public class LocalizationDatabaseEditor : ScriptableDatabaseEditor<LocalizationEditorWindow, LocalizationDatabase, LocalizationKey> 
+    public class LocalizationDatabaseEditor : ScriptableDatabaseEditor<LocalizationEditorWindow, LocalizationDatabase, LocalizationItem> 
     {
         
     }

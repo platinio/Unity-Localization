@@ -15,6 +15,7 @@ MonoBehaviour:
   Name: Necromancer II
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_5
+  ownerDatabase: {fileID: 11400000}
   language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
 --- !u!114 &-7635271893458474879
@@ -32,6 +33,7 @@ MonoBehaviour:
   Name: Necromancer I
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_4
+  ownerDatabase: {fileID: 11400000}
   language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
 --- !u!114 &-6514951270672164619
@@ -49,6 +51,7 @@ MonoBehaviour:
   Name: Necromancer III
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_2
+  ownerDatabase: {fileID: 11400000}
   language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
 --- !u!114 &-5698823694364671022
@@ -66,6 +69,7 @@ MonoBehaviour:
   Name: Salute
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_8
+  ownerDatabase: {fileID: 11400000}
   language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: Hola esto es un saludo!
 --- !u!114 &-3714626358870425412
@@ -83,6 +87,7 @@ MonoBehaviour:
   Name: Necromancer I
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_0
+  ownerDatabase: {fileID: 11400000}
   language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
 --- !u!114 &-1404644445198598693
@@ -100,6 +105,7 @@ MonoBehaviour:
   Name: Necromancer IV
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_3
+  ownerDatabase: {fileID: 11400000}
   language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
 --- !u!114 &11400000
@@ -125,7 +131,7 @@ MonoBehaviour:
   - {fileID: 4974371133434463439}
   - {fileID: -5698823694364671022}
   - {fileID: 6842177576070901258}
-  id: 10
+  id: 14
 --- !u!114 &1940858399620720138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,6 +147,7 @@ MonoBehaviour:
   Name: Necromancer II
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_1
+  ownerDatabase: {fileID: 11400000}
   language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
 --- !u!114 &4974371133434463439
@@ -158,6 +165,7 @@ MonoBehaviour:
   Name: Necromancer IV
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_7
+  ownerDatabase: {fileID: 11400000}
   language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
 --- !u!114 &6842177576070901258
@@ -175,6 +183,7 @@ MonoBehaviour:
   Name: Salute
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_9
+  ownerDatabase: {fileID: 11400000}
   language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: Hi this is a salute!
 --- !u!114 &8852839854670997451
@@ -192,5 +201,6 @@ MonoBehaviour:
   Name: Necromancer III
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_6
+  ownerDatabase: {fileID: 11400000}
   language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace ArcaneOnyx.Localization
 {
-    [CreateAssetMenu(menuName = "Database/Localization/Language Type")]
+    [CreateAssetMenu(menuName = "Database/Localization/Language Type Database")]
     public class LocalizationLanguageDatabase : ScriptableDatabase<LocalizationLanguage>
     {
         

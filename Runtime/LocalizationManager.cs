@@ -33,19 +33,28 @@ namespace ArcaneOnyx.Localization
             return options;
         }
 
-        public string GetLocalization(LocalizationKey localizationKey) => GetLocalization(localizationKey.Name);
+        public string GetLocalization(LocalizationItem localizationItem) => GetLocalization(localizationItem.Key);
 
-        public string GetLocalization(string key)
+        public string GetLocalization(string localizationKey)
         {
+            string databaseName = localizationKey.Split('/')[0];
+            string keyName = localizationKey.Split('/')[1];
+            
             foreach (var localizationDatabase in localizationDatabases)
             {
-                foreach (var localizationKey in localizationDatabase.Items)
+                if (string.Compare(localizationDatabase.name, databaseName,
+                        StringComparison.InvariantCultureIgnoreCase) != 0)
                 {
-                    if (activeLanguage != localizationKey.Language) continue;
+                    continue;
+                }
+
+                foreach (var localization in localizationDatabase.Items)
+                {
+                    if (activeLanguage != localization.Language) continue;
                     
-                    if (string.Compare(key, localizationKey.Name, StringComparison.InvariantCultureIgnoreCase) == 0)
+                    if (string.Compare(keyName, localization.Name, StringComparison.InvariantCultureIgnoreCase) == 0)
                     {
-                        return localizationKey.Text;
+                        return localization.Text;
                     }
                 }
             }

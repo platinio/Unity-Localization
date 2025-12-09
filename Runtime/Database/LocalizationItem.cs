@@ -3,8 +3,9 @@ using UnityEngine;
 
 namespace ArcaneOnyx.Localization
 {
-    public class LocalizationKey : ScriptableItem
+    public class LocalizationItem : ScriptableItem
     {
+        [SerializeField, HideInInspector] private LocalizationDatabase ownerDatabase;
         [SerializeField, HideInInspector] private LocalizationLanguage language;
         [SerializeField, TextArea] private string text;
         
@@ -15,5 +16,11 @@ namespace ArcaneOnyx.Localization
         }
 
         public string Text => text;
+        public string Key => $"{ownerDatabase.name}/{Name}";
+
+        public void SetOwnerDatabase(LocalizationDatabase localizationDatabase)
+        {
+            ownerDatabase = localizationDatabase;
+        }
     }
 }

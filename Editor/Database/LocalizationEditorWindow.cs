@@ -7,11 +7,11 @@ using UnityEngine;
 
 namespace ArcaneOnyx.Localization
 {
-    public class LocalizationEditorWindow : DatabaseEditorWindowWithCategory<LocalizationDatabase, LocalizationKey>
+    public class LocalizationEditorWindow : DatabaseEditorWindowWithCategory<LocalizationDatabase, LocalizationItem>
     {
         private static LocalizationLanguageDatabase localizationLanguageDatabase;
         
-        [MenuItem("Window/Localization/Keys Editor")]
+        [MenuItem("Window/Localization/Editor")]
         public static void OpenEditor()
         {
             LocalizationEditorWindow wnd = GetWindow<LocalizationEditorWindow>();
@@ -24,14 +24,12 @@ namespace ArcaneOnyx.Localization
         {
             toolbarMenu.menu.AppendSeparator("Create");
 
-            var types = GetEnumerableOfType(typeof(LocalizationKey));
+            var types = GetEnumerableOfType(typeof(LocalizationItem));
             
             foreach (var type in types)
             {
                 toolbarMenu.menu.AppendAction($"Create/{type.Name}", _ =>
                 {
-                    var newKey = CreateNewEntry(type);
-                    
                     var localizationLanguage = ScriptableDatabaseUtil.GetActiveDatabase<LocalizationLanguage, LocalizationLanguageDatabase>();
                     if (localizationLanguage == null) return;
 
@@ -46,7 +44,13 @@ namespace ArcaneOnyx.Localization
                         }
                     }
                     
+                    var newKey = CreateInstance(type) as LocalizationItem;
+                    CreateDatabaseListGUI(rootVisualElement);
+                    RebuildDatabaseList(rootVisualElement);
+                    
                     newKey.Language = selectedLanguage;
+                    newKey.SetOwnerDatabase(selectedDatabase);
+                    selectedDatabase.AddItem(newKey);
                     
                     UpdateSelectedCategory();
                 });
@@ -65,7 +69,7 @@ namespace ArcaneOnyx.Localization
             toolbarMenu.menu.AppendAction("Save", Save);
         }
         
-        protected override IReadOnlyList<LocalizationKey> FilterEntries(IReadOnlyList<LocalizationKey> entries)
+        protected override IReadOnlyList<LocalizationItem> FilterEntries(IReadOnlyList<LocalizationItem> entries)
         {
             var selectedLanguage = GetSelectedCategory();
             if (selectedLanguage == null) return entries;
@@ -87,7 +91,7 @@ namespace ArcaneOnyx.Localization
             return null;
         }
         
-        protected override Category GetItemCategory(LocalizationKey item)
+        protected override Category GetItemCategory(LocalizationItem item)
         {
             var categories = GetDatabaseCategories();
 

@@ -6,7 +6,7 @@ namespace ArcaneOnyx.Localization
 {
     public class TMP_TextLocalization : MonoBehaviour
     {
-        [SerializeField, LocalizationSelector] private LocalizationKey localizationKey;
+        [SerializeField, LocalizationKeySelector] private string localizationKey;
 
         private TextMeshProUGUI label;
         
@@ -37,6 +37,12 @@ namespace ArcaneOnyx.Localization
         {
             if (label == null) return;
             label.text = localizationManager.GetLocalization(localizationKey);
+        }
+
+        public void UpdateLocalizationKey(string key)
+        {
+            localizationKey = key;
+            UpdateText();
         }
     }
 }
