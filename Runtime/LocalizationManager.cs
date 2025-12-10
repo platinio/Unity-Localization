@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Platinio;
 using UnityEngine;
 
 namespace ArcaneOnyx.Localization
 {
-    public class LocalizationManager : MonoBehaviour
+    public class LocalizationManager : Singleton<LocalizationManager>
     {
         [SerializeField] private LocalizationLanguageDatabase localizationLanguageDatabase;
         [SerializeField] private LocalizationLanguage activeLanguage;
@@ -15,8 +16,15 @@ namespace ArcaneOnyx.Localization
         public Action OnLanguageChanged;
         public LocalizationLanguage ActiveLanguage => activeLanguage;
         
-        protected void Awake()
+        protected override void Awake()
         {
+            base.Awake();
+            
+            if (!ReferenceEquals( Instance, gameObject.GetComponent<LocalizationManager>()))
+            {
+                return;
+            }
+            
             activeLanguage = localizationLanguageDatabase.Items.FirstOrDefault();
             LoadLocalizationDatabases();
         }
