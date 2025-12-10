@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9097668831561656358
+--- !u!114 &-8954499211256456882
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,50 +10,158 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
-  m_Name: Necromancer II
+  m_Name: Infected_Description
   m_EditorClassIdentifier: 
-  Name: Necromancer II
+  Name: Infected_Description
   icon: {fileID: 0}
-  id: db8382f0edc025c4e9de237ca72d8d2c_5
-  ownerDatabase: {fileID: 11400000}
-  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
-  text: 
---- !u!114 &-7635271893458474879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
-  m_Name: Necromancer I
-  m_EditorClassIdentifier: 
-  Name: Necromancer I
-  icon: {fileID: 0}
-  id: db8382f0edc025c4e9de237ca72d8d2c_4
-  ownerDatabase: {fileID: 11400000}
-  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
-  text: 
---- !u!114 &-6514951270672164619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
-  m_Name: Necromancer III
-  m_EditorClassIdentifier: 
-  Name: Necromancer III
-  icon: {fileID: 0}
-  id: db8382f0edc025c4e9de237ca72d8d2c_2
+  id: db8382f0edc025c4e9de237ca72d8d2c_17
   ownerDatabase: {fileID: 11400000}
   language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
+--- !u!114 &-8337031760509280910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: GreatLeaderAura_Name
+  m_EditorClassIdentifier: 
+  Name: GreatLeaderAura_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_36
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Aura de Gran Lider {0}
+--- !u!114 &-8191909240206210974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: PoisonedAura_Name
+  m_EditorClassIdentifier: 
+  Name: PoisonedAura_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_34
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Poisoned Aura {0}
+--- !u!114 &-8169937183334919724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Vampire_Description
+  m_EditorClassIdentifier: 
+  Name: Vampire_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_27
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-8138693084369511818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Poisoned_Description
+  m_EditorClassIdentifier: 
+  Name: Poisoned_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_21
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-7315697236113823683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Poisoned_Name
+  m_EditorClassIdentifier: 
+  Name: Poisoned_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_20
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Envenenado {0}
+--- !u!114 &-7071794923486259731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: RegenerationAura_Description
+  m_EditorClassIdentifier: 
+  Name: RegenerationAura_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_55
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-7032960996188820540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Infected_Description
+  m_EditorClassIdentifier: 
+  Name: Infected_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_19
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-6674965741699882570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Vampire_Name
+  m_EditorClassIdentifier: 
+  Name: Vampire_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_26
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Vampire {0}
 --- !u!114 &-5698823694364671022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,15 +172,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
-  m_Name: Salute
+  m_Name: Necromancer_Name
   m_EditorClassIdentifier: 
-  Name: Salute
+  Name: Necromancer_Name
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_8
   ownerDatabase: {fileID: 11400000}
   language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
-  text: Hola esto es un saludo!
---- !u!114 &-3714626358870425412
+  text: Necromancer {0}
+--- !u!114 &-5531726493018888402
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -82,15 +190,69 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
-  m_Name: Necromancer I
+  m_Name: Charming_Name
   m_EditorClassIdentifier: 
-  Name: Necromancer I
+  Name: Charming_Name
   icon: {fileID: 0}
-  id: db8382f0edc025c4e9de237ca72d8d2c_0
+  id: db8382f0edc025c4e9de237ca72d8d2c_44
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Encanto {0}
+--- !u!114 &-5033809953772228084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Regeneration_Name
+  m_EditorClassIdentifier: 
+  Name: Regeneration_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_48
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Regeneracion {0}
+--- !u!114 &-4625185302756184675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: PoisonedAura_Description
+  m_EditorClassIdentifier: 
+  Name: PoisonedAura_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_35
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-4202687670962400813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: GreatLeader_Description
+  m_EditorClassIdentifier: 
+  Name: GreatLeader_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_41
   ownerDatabase: {fileID: 11400000}
   language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
---- !u!114 &-1404644445198598693
+--- !u!114 &-3414035830816168351
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,11 +262,245 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
-  m_Name: Necromancer IV
+  m_Name: Vampire_Name
   m_EditorClassIdentifier: 
-  Name: Necromancer IV
+  Name: Vampire_Name
   icon: {fileID: 0}
-  id: db8382f0edc025c4e9de237ca72d8d2c_3
+  id: db8382f0edc025c4e9de237ca72d8d2c_24
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Vampirismo {0}
+--- !u!114 &-3034702942035688093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: GreatLeaderAura_Name
+  m_EditorClassIdentifier: 
+  Name: GreatLeaderAura_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_38
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Great Leader Aura {0}
+--- !u!114 &-2717952451972063808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Regeneration_Name
+  m_EditorClassIdentifier: 
+  Name: Regeneration_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_50
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Regeneration {0}
+--- !u!114 &-2521643553900181019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Regeneration_Description
+  m_EditorClassIdentifier: 
+  Name: Regeneration_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_51
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-2504446392094476130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: GreatLeader_Name
+  m_EditorClassIdentifier: 
+  Name: GreatLeader_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_42
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Great Leader {0}
+--- !u!114 &-2188501670297440767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: RegenerationAura_Name
+  m_EditorClassIdentifier: 
+  Name: RegenerationAura_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_54
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Regeneration Aura {0}
+--- !u!114 &-2029579237002091999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Charming_Description
+  m_EditorClassIdentifier: 
+  Name: Charming_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_47
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-1265977092852958690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: DeathWish_Name
+  m_EditorClassIdentifier: 
+  Name: DeathWish_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_28
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Deseo de Muerte
+--- !u!114 &-1154268718517286543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Vampire_Description
+  m_EditorClassIdentifier: 
+  Name: Vampire_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_25
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-732057313137570582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: DeathWish_Description
+  m_EditorClassIdentifier: 
+  Name: DeathWish_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_29
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-665552671410938453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: DeathWish_Name
+  m_EditorClassIdentifier: 
+  Name: DeathWish_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_30
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Death Wish
+--- !u!114 &-178530800514662391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Infected_Name
+  m_EditorClassIdentifier: 
+  Name: Infected_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_16
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Infeccion {0}
+--- !u!114 &-161630973204819395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: GreatLeader_Name
+  m_EditorClassIdentifier: 
+  Name: GreatLeader_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_40
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Gran Lider {0}
+--- !u!114 &-133743955888447835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Charming_Description
+  m_EditorClassIdentifier: 
+  Name: Charming_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_45
   ownerDatabase: {fileID: 11400000}
   language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
@@ -121,18 +517,52 @@ MonoBehaviour:
   m_Name: Status
   m_EditorClassIdentifier: 
   items:
-  - {fileID: -3714626358870425412}
-  - {fileID: 1940858399620720138}
-  - {fileID: -6514951270672164619}
-  - {fileID: -1404644445198598693}
-  - {fileID: -7635271893458474879}
-  - {fileID: -9097668831561656358}
-  - {fileID: 8852839854670997451}
-  - {fileID: 4974371133434463439}
   - {fileID: -5698823694364671022}
   - {fileID: 6842177576070901258}
-  id: 14
---- !u!114 &1940858399620720138
+  - {fileID: 3189017311544716549}
+  - {fileID: 1355753954748877977}
+  - {fileID: -178530800514662391}
+  - {fileID: -8954499211256456882}
+  - {fileID: 3659225402668789125}
+  - {fileID: -7032960996188820540}
+  - {fileID: -7315697236113823683}
+  - {fileID: -8138693084369511818}
+  - {fileID: 3045780411763379733}
+  - {fileID: 7637088066230999280}
+  - {fileID: -3414035830816168351}
+  - {fileID: -1154268718517286543}
+  - {fileID: -6674965741699882570}
+  - {fileID: -8169937183334919724}
+  - {fileID: -1265977092852958690}
+  - {fileID: -732057313137570582}
+  - {fileID: -665552671410938453}
+  - {fileID: 2427721518026974487}
+  - {fileID: 4104686696823060653}
+  - {fileID: 4776473160203021624}
+  - {fileID: -8191909240206210974}
+  - {fileID: -4625185302756184675}
+  - {fileID: -8337031760509280910}
+  - {fileID: 1079756044785323961}
+  - {fileID: -3034702942035688093}
+  - {fileID: 4349085992331621812}
+  - {fileID: -161630973204819395}
+  - {fileID: -4202687670962400813}
+  - {fileID: -2504446392094476130}
+  - {fileID: 2261964286001984734}
+  - {fileID: -5531726493018888402}
+  - {fileID: -133743955888447835}
+  - {fileID: 5128646783549554694}
+  - {fileID: -2029579237002091999}
+  - {fileID: -5033809953772228084}
+  - {fileID: 3932961265837876042}
+  - {fileID: -2717952451972063808}
+  - {fileID: -2521643553900181019}
+  - {fileID: 4020269268649350267}
+  - {fileID: 1981584818993097096}
+  - {fileID: -2188501670297440767}
+  - {fileID: -7071794923486259731}
+  id: 56
+--- !u!114 &1079756044785323961
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,15 +572,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
-  m_Name: Necromancer II
+  m_Name: GreatLeaderAura_Description
   m_EditorClassIdentifier: 
-  Name: Necromancer II
+  Name: GreatLeaderAura_Description
   icon: {fileID: 0}
-  id: db8382f0edc025c4e9de237ca72d8d2c_1
+  id: db8382f0edc025c4e9de237ca72d8d2c_37
   ownerDatabase: {fileID: 11400000}
   language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
---- !u!114 &4974371133434463439
+--- !u!114 &1355753954748877977
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,14 +590,230 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
-  m_Name: Necromancer IV
+  m_Name: Necromancer_Description
   m_EditorClassIdentifier: 
-  Name: Necromancer IV
+  Name: Necromancer_Description
   icon: {fileID: 0}
-  id: db8382f0edc025c4e9de237ca72d8d2c_7
+  id: db8382f0edc025c4e9de237ca72d8d2c_15
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: '30% chance to spawn a skeleton after killing '
+--- !u!114 &1981584818993097096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: RegenerationAura_Description
+  m_EditorClassIdentifier: 
+  Name: RegenerationAura_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_53
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &2261964286001984734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: GreatLeader_Description
+  m_EditorClassIdentifier: 
+  Name: GreatLeader_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_43
   ownerDatabase: {fileID: 11400000}
   language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
+--- !u!114 &2427721518026974487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: DeathWish_Description
+  m_EditorClassIdentifier: 
+  Name: DeathWish_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_31
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &3045780411763379733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Poisoned_Name
+  m_EditorClassIdentifier: 
+  Name: Poisoned_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_22
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Poisoned {0}
+--- !u!114 &3189017311544716549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Necromancer_Description
+  m_EditorClassIdentifier: 
+  Name: Necromancer_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_14
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Oportunidad de 30% de crear un Skeleton despues de matar un enemigo
+--- !u!114 &3659225402668789125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Infected_Name
+  m_EditorClassIdentifier: 
+  Name: Infected_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_18
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Infected {0}
+--- !u!114 &3932961265837876042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Regeneration_Description
+  m_EditorClassIdentifier: 
+  Name: Regeneration_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_49
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &4020269268649350267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: RegenerationAura_Name
+  m_EditorClassIdentifier: 
+  Name: RegenerationAura_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_52
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Aura de Regeneracion {0}
+--- !u!114 &4104686696823060653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: PoisonedAura_Name
+  m_EditorClassIdentifier: 
+  Name: PoisonedAura_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_32
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Aura Envenenada {0}
+--- !u!114 &4349085992331621812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: GreatLeaderAura_Description
+  m_EditorClassIdentifier: 
+  Name: GreatLeaderAura_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_39
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &4776473160203021624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: PoisonedAura_Description
+  m_EditorClassIdentifier: 
+  Name: PoisonedAura_Description
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_33
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &5128646783549554694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: Charming_Name
+  m_EditorClassIdentifier: 
+  Name: Charming_Name
+  icon: {fileID: 0}
+  id: db8382f0edc025c4e9de237ca72d8d2c_46
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Charming {0}
 --- !u!114 &6842177576070901258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,15 +824,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
-  m_Name: Salute
+  m_Name: Necromancer_Name
   m_EditorClassIdentifier: 
-  Name: Salute
+  Name: Necromancer_Name
   icon: {fileID: 0}
   id: db8382f0edc025c4e9de237ca72d8d2c_9
   ownerDatabase: {fileID: 11400000}
   language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
-  text: Hi this is a salute!
---- !u!114 &8852839854670997451
+  text: Necromancer {0}
+--- !u!114 &7637088066230999280
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,11 +842,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
-  m_Name: Necromancer III
+  m_Name: Poisoned_Description
   m_EditorClassIdentifier: 
-  Name: Necromancer III
+  Name: Poisoned_Description
   icon: {fileID: 0}
-  id: db8382f0edc025c4e9de237ca72d8d2c_6
+  id: db8382f0edc025c4e9de237ca72d8d2c_23
   ownerDatabase: {fileID: 11400000}
   language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
   text: 
