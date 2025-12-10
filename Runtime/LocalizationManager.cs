@@ -29,7 +29,7 @@ namespace ArcaneOnyx.Localization
             LoadLocalizationDatabases();
         }
 
-        public List<string> GetLocalizationOptions()
+        public List<string> GetAvailableLanguages()
         {
             List<string> options = new();
 

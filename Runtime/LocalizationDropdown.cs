@@ -13,9 +13,9 @@ namespace ArcaneOnyx.Localization
         
         private void Start()
         {
-            var localizationOptions = localizationManager.GetLocalizationOptions();
-            dropdown.AddOptions(localizationOptions);
-            dropdown.value = localizationOptions.IndexOf(localizationManager.ActiveLanguage.Name);
+            var localizationLanguages = localizationManager.GetAvailableLanguages();
+            dropdown.AddOptions(localizationLanguages);
+            dropdown.value = localizationLanguages.IndexOf(localizationManager.ActiveLanguage.Name);
             dropdown.onValueChanged.AddListener(OnDropdownValueChanged);
         }
 
