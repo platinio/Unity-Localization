@@ -45,8 +45,16 @@ namespace ArcaneOnyx.Localization
 
         public string GetLocalization(string localizationKey)
         {
-            string databaseName = localizationKey.Split('/')[0];
-            string keyName = localizationKey.Split('/')[1];
+            string[] splitLocalization = localizationKey.Split('/');
+
+            if (splitLocalization.Length <= 1)
+            {
+                Debug.LogError($"Localization Key {localizationKey} isnt valid");
+                return null;
+            }
+
+            string databaseName = splitLocalization[0];
+            string keyName = splitLocalization[1];
             
             foreach (var localizationDatabase in localizationDatabases)
             {
