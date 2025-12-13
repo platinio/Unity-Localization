@@ -71,7 +71,7 @@ MonoBehaviour:
   id: db8382f0edc025c4e9de237ca72d8d2c_27
   ownerDatabase: {fileID: 11400000}
   language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
-  text: 
+  text: Players will get {0}% of dealt damage returned as {1}
 --- !u!114 &-8138693084369511818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,7 +413,7 @@ MonoBehaviour:
   id: db8382f0edc025c4e9de237ca72d8d2c_25
   ownerDatabase: {fileID: 11400000}
   language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
-  text: 
+  text: Jugador obtendra {0}% del da;o causado retornado como {1}
 --- !u!114 &-732057313137570582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,7 +561,7 @@ MonoBehaviour:
   - {fileID: 1981584818993097096}
   - {fileID: -2188501670297440767}
   - {fileID: -7071794923486259731}
-  id: 56
+  id: 58
 --- !u!114 &1079756044785323961
 MonoBehaviour:
   m_ObjectHideFlags: 0
