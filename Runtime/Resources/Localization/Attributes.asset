@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9083030803359150186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: HP_Description
+  m_EditorClassIdentifier: 
+  Name: HP_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_17
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-8185661454842552791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_AP_Name
+  m_EditorClassIdentifier: 
+  Name: M_AP_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_8
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Puntos de Accion Maximos
+--- !u!114 &-7880042401740041385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_MVN_Description
+  m_EditorClassIdentifier: 
+  Name: M_MVN_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_7
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-7561280866120738135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_HP_Description
+  m_EditorClassIdentifier: 
+  Name: M_HP_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_23
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-7303590178880024015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: MVN_Description
+  m_EditorClassIdentifier: 
+  Name: MVN_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_1
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-7049212562364656441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_MVN_Name
+  m_EditorClassIdentifier: 
+  Name: M_MVN_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_4
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Movimiento Maximo
+--- !u!114 &-6567814182037726385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_AP_Name
+  m_EditorClassIdentifier: 
+  Name: M_AP_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_10
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Max Action Points
+--- !u!114 &-5170819267018061832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_MVN_Name
+  m_EditorClassIdentifier: 
+  Name: M_MVN_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_6
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Max Movement
+--- !u!114 &-3255582636822882261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: HP_Name
+  m_EditorClassIdentifier: 
+  Name: HP_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_18
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Health Points
+--- !u!114 &-2922284274073554330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: AP_Description
+  m_EditorClassIdentifier: 
+  Name: AP_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_13
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-2028541791877839244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: MVN_Description
+  m_EditorClassIdentifier: 
+  Name: MVN_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_3
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-1811516114457725790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: HP_Description
+  m_EditorClassIdentifier: 
+  Name: HP_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_19
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-1163190386848646839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_HP_Description
+  m_EditorClassIdentifier: 
+  Name: M_HP_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_21
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &-81036584963024986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_HP_Name
+  m_EditorClassIdentifier: 
+  Name: M_HP_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_22
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Max HP
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed52d75fc17485fb9052692d38d3ad0, type: 3}
+  m_Name: Attributes
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 8412424824555009868}
+  - {fileID: -7303590178880024015}
+  - {fileID: 3310350950528027072}
+  - {fileID: -2028541791877839244}
+  - {fileID: -7049212562364656441}
+  - {fileID: 681820035691927926}
+  - {fileID: -5170819267018061832}
+  - {fileID: -7880042401740041385}
+  - {fileID: -8185661454842552791}
+  - {fileID: 7675784934448731849}
+  - {fileID: -6567814182037726385}
+  - {fileID: 7927966086169115056}
+  - {fileID: 1283561505093158032}
+  - {fileID: -2922284274073554330}
+  - {fileID: 3349385842022205077}
+  - {fileID: 5125449672019105024}
+  - {fileID: 2246986751446420007}
+  - {fileID: -9083030803359150186}
+  - {fileID: -3255582636822882261}
+  - {fileID: -1811516114457725790}
+  - {fileID: 2462139950096397575}
+  - {fileID: -1163190386848646839}
+  - {fileID: -81036584963024986}
+  - {fileID: -7561280866120738135}
+  id: 24
+--- !u!114 &681820035691927926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_MVN_Description
+  m_EditorClassIdentifier: 
+  Name: M_MVN_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_5
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &1283561505093158032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: AP_Name
+  m_EditorClassIdentifier: 
+  Name: AP_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_12
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Puntos de Accion
+--- !u!114 &2246986751446420007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: HP_Name
+  m_EditorClassIdentifier: 
+  Name: HP_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_16
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Vitalidad
+--- !u!114 &2462139950096397575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_HP_Name
+  m_EditorClassIdentifier: 
+  Name: M_HP_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_20
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Vitalidad Maxima
+--- !u!114 &3310350950528027072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: MVN_Name
+  m_EditorClassIdentifier: 
+  Name: MVN_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_2
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Movement
+--- !u!114 &3349385842022205077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: AP_Name
+  m_EditorClassIdentifier: 
+  Name: AP_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_14
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Action Points
+--- !u!114 &5125449672019105024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: AP_Description
+  m_EditorClassIdentifier: 
+  Name: AP_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_15
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &7675784934448731849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_AP_Description
+  m_EditorClassIdentifier: 
+  Name: M_AP_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_9
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &7927966086169115056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: M_AP_Description
+  m_EditorClassIdentifier: 
+  Name: M_AP_Description
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_11
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: 460066263908711198, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: 
+--- !u!114 &8412424824555009868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206a22a6464f4f7e9e0f51a3b453a632, type: 3}
+  m_Name: MVN_Name
+  m_EditorClassIdentifier: 
+  Name: MVN_Name
+  icon: {fileID: 0}
+  id: 13bdc79c35e3e1043a2fb9e6372fe958_0
+  ownerDatabase: {fileID: 11400000}
+  language: {fileID: -8569267979622965325, guid: 8dd87229fa65f904fb3ab0b006898e99, type: 2}
+  text: Movimiento
