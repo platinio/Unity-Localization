@@ -3,7 +3,7 @@ using Zenject;
 
 namespace ArcaneOnyx.Localization
 {
-    [AutoAssetGeneration("Installers/Resources/Static" , "LocalizationStaticInstaller")]
+    [AutoAssetGeneration("Installers/Static" , "LocalizationStaticInstaller")]
     [StaticInstaller(StaticInstallerExecutionOrder.NonImportant)]
     public class LocalizationStaticInstaller : ScriptableObjectInstaller
     {
