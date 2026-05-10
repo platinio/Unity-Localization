@@ -24,7 +24,7 @@ namespace ArcaneOnyx.Localization
         {
             toolbarMenu.menu.AppendSeparator("Create");
 
-            var types = GetEnumerableOfType(typeof(LocalizationItem));
+            var types = GetEnumerableOfType(typeof(LocalizationItem), true);
             
             foreach (var type in types)
             {
