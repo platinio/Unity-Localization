@@ -49,7 +49,7 @@ namespace ArcaneOnyx.Localization
 
             if (splitLocalization.Length <= 1)
             {
-                Debug.LogError($"Localization Key {localizationKey} isnt valid");
+                Debug.LogError($"Localization Key {localizationKey} isnt valid", gameObject);
                 return null;
             }
 
