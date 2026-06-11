@@ -24,8 +24,12 @@ namespace ArcaneOnyx.Localization
             {
                 return;
             }
+
+            if (activeLanguage == null)
+            {
+                activeLanguage = localizationLanguageDatabase.Items.FirstOrDefault();
+            }
             
-            activeLanguage = localizationLanguageDatabase.Items.FirstOrDefault();
             LoadLocalizationDatabases();
         }
 
