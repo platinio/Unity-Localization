@@ -26,6 +26,7 @@ namespace ArcaneOnyx.Localization
         private void OnEnable()
         {
             localizationManager.OnLanguageChanged += UpdateText;
+            UpdateText();
         }
 
         private void OnDisable()
@@ -35,7 +36,7 @@ namespace ArcaneOnyx.Localization
 
         private void UpdateText()
         {
-            if (label == null) return;
+            if (label == null || string.IsNullOrEmpty(localizationKey)) return;
             label.text = localizationManager.GetLocalization(localizationKey);
         }
 
