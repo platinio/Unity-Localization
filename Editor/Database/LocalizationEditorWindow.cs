@@ -11,7 +11,7 @@ namespace ArcaneOnyx.Localization
     {
         private static LocalizationLanguageDatabase localizationLanguageDatabase;
         
-        [MenuItem("Window/Localization/Editor")]
+        [MenuItem("Window/Arcane Onyx/Localization/Editor")]
         public static void OpenEditor()
         {
             LocalizationEditorWindow wnd = GetWindow<LocalizationEditorWindow>();
