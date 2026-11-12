@@ -222,9 +222,12 @@ function KeyNote({
       </span>
     );
   }
+  const language = chosenKey.language ?? 'the first language';
   return (
     <span role="note" className={styles['muted']}>
-      “{chosenKey.text}”{chosenKey.language !== null && ` (${chosenKey.language})`}
+      {chosenKey.text === ''
+        ? `No text in ${language} yet.`
+        : `“${chosenKey.text}”${chosenKey.language !== null ? ` (${chosenKey.language})` : ''}`}
     </span>
   );
 }

@@ -95,6 +95,13 @@ describe('LocalizationKeySelector', () => {
     expect(unity.bridge.requestCustom).toHaveBeenCalledWith(KEYS_REQUEST);
   });
 
+  it('says when the key has no text yet', async () => {
+    const empty = { ...BURNING, text: '', language: 'Spanish' };
+    draw(fakeUnity(vi.fn(async () => [empty])), keyField('Statuses/Burning'));
+
+    expect(await screen.findByRole('note')).toHaveTextContent('No text in Spanish yet.');
+  });
+
   it('says so when no item has the key', async () => {
     draw(fakeUnity(), keyField('Statuses/Renamed'));
 
