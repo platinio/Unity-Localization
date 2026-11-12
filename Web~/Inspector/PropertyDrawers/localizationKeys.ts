@@ -35,7 +35,7 @@ export function createKeyCache(unity: UnityQuestions) {
         if (answer === asked) isOnItsWay = false;
       },
       () => {
-        // A newer answer may already be kept; only this one is forgotten.
+        // Defensive: keys() and refresh() share an answer on its way, so a newer one can't start today.
         if (answer !== asked) return;
         answer = null;
         isOnItsWay = false;

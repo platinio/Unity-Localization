@@ -193,6 +193,34 @@ describe('LocalizationKeySelector', () => {
     expect(await screen.findByRole('note')).toHaveTextContent('“Frozen solid”');
   });
 
+  it('asks again when Unity reconnects after a failed list', async () => {
+    const requestCustom = vi
+      .fn()
+      .mockRejectedValueOnce(new Error('Unity is compiling'))
+      .mockResolvedValue(KEYS);
+    const unity = fakeUnity(requestCustom);
+    draw(unity, keyField('Statuses/Frozen'));
+    await waitFor(() => expect(requestCustom).toHaveBeenCalledTimes(1));
+
+    unity.connect(true);
+
+    expect(await screen.findByRole('note')).toHaveTextContent('“Frozen solid”');
+  });
+
+  it('shares one new question among fields that all miss their key', async () => {
+    const requestCustom = vi.fn(async () => [BURNING]);
+    draw(
+      fakeUnity(requestCustom, true),
+      keyField('Statuses/Frozen'),
+      keyField('Statuses/Frozen', { path: 'descriptionKey', label: 'Description Key' }),
+    );
+
+    await waitFor(() => expect(requestCustom).toHaveBeenCalledTimes(2));
+    await new Promise((resolve) => setTimeout(resolve, 50));
+
+    expect(requestCustom).toHaveBeenCalledTimes(2);
+  });
+
   it("can't be changed when the field is read-only", () => {
     draw(
       fakeUnity(),
@@ -211,6 +239,7 @@ describe('LocalizationKeySelector', () => {
     draw(fakeUnity(requestCustom), keyField(''));
 
     await userEvent.click(screen.getByRole('button', { name: 'Name Key: None' }));
+    expect(await screen.findByRole('alert')).toHaveTextContent('No handler for localization.keys');
     await userEvent.click(await screen.findByRole('button', { name: 'Retry' }));
 
     expect(await screen.findByRole('option', { name: 'Statuses/Frozen' })).toBeInTheDocument();

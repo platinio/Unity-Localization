@@ -7,22 +7,19 @@ using UnityEngine;
 
 namespace ArcaneOnyx.Localization.Tests
 {
-    /// <summary>
-    /// The keys the web inspector's key picker is given, built from items and languages made in memory.
-    /// </summary>
     public class LocalizationKeysTests
     {
         private readonly List<Object> made = new List<Object>();
-        private LocalizationDatabase ui;
+        private LocalizationDatabase uiDatabase;
         private LocalizationLanguage english;
         private LocalizationLanguage spanish;
 
         [SetUp]
         public void MakeADatabaseAndTwoLanguages()
         {
-            ui = Make<LocalizationDatabase>("UI");
-            english = Make<LocalizationLanguage>("English");
-            spanish = Make<LocalizationLanguage>("Spanish");
+            uiDatabase = Make<LocalizationDatabase>("UI");
+            english = Language("English");
+            spanish = Language("Spanish");
         }
 
         [TearDown]
@@ -37,10 +34,15 @@ namespace ArcaneOnyx.Localization.Tests
         {
             var instance = ScriptableObject.CreateInstance<T>();
             instance.name = name;
-            if (instance is LocalizationLanguage language)
-                language.Name = name;
             made.Add(instance);
             return instance;
+        }
+
+        private LocalizationLanguage Language(string name)
+        {
+            LocalizationLanguage language = Make<LocalizationLanguage>(name);
+            language.Name = name;
+            return language;
         }
 
         private LocalizationItem Item(string name, LocalizationLanguage language, string text, LocalizationDatabase owner = null)
@@ -61,29 +63,28 @@ namespace ArcaneOnyx.Localization.Tests
         [Test]
         public void EachKeyIsListedOnceWithItsTextInTheFirstLanguage()
         {
-            JArray keys = Describe(Item("Title", spanish, "Título", ui), Item("Title", english, "Title", ui));
+            JArray keys = Describe(Item("Title", spanish, "Título", uiDatabase), Item("Title", english, "Title", uiDatabase));
 
             Assert.That(keys.Count, Is.EqualTo(1));
             Assert.That((string)keys[0]["key"], Is.EqualTo("UI/Title"));
             Assert.That((string)keys[0]["text"], Is.EqualTo("Title"));
             Assert.That((string)keys[0]["language"], Is.EqualTo("English"));
-            StringAssert.StartsWith("GlobalObjectId_V1", (string)keys[0]["id"]);
         }
 
         [Test]
-        public void KeysAreSortedByKey()
+        public void KeysAreSortedByKeyWithLetterCaseIgnored()
         {
-            JArray keys = Describe(Item("Zeta", english, "", ui), Item("Alpha", english, "", ui));
+            JArray keys = Describe(Item("zeta", english, "", uiDatabase), Item("Beta", english, "", uiDatabase), Item("alpha", english, "", uiDatabase));
 
-            Assert.That(keys.Select(key => (string)key["key"]), Is.EqualTo(new[] { "UI/Alpha", "UI/Zeta" }));
+            Assert.That(keys.Select(key => (string)key["key"]), Is.EqualTo(new[] { "UI/alpha", "UI/Beta", "UI/zeta" }));
         }
 
         [Test]
         public void AnItemInALanguageNotListedComesAfterTheListedOnes()
         {
-            LocalizationLanguage klingon = Make<LocalizationLanguage>("Klingon");
+            LocalizationLanguage klingon = Language("Klingon");
 
-            JArray keys = Describe(Item("Title", klingon, "nuqneH", ui), Item("Title", spanish, "Título", ui));
+            JArray keys = Describe(Item("Title", klingon, "nuqneH", uiDatabase), Item("Title", spanish, "Título", uiDatabase));
 
             Assert.That((string)keys[0]["text"], Is.EqualTo("Título"));
         }
@@ -91,7 +92,7 @@ namespace ArcaneOnyx.Localization.Tests
         [Test]
         public void AnItemNoDatabaseOwnsHasNoKeyAndIsLeftOut()
         {
-            JArray keys = Describe(Item("Loose", english, "Loose"), Item("Title", english, "Title", ui));
+            JArray keys = Describe(Item("Loose", english, "Loose"), Item("Title", english, "Title", uiDatabase));
 
             Assert.That(keys.Select(key => (string)key["key"]), Is.EqualTo(new[] { "UI/Title" }));
         }

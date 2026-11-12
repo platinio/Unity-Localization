@@ -19,5 +19,4 @@ own look without the project's inspector app changing. See
 | `hefesto-plugin.json` | The plugin's id and the plugin API it is built for              |
 | `plugin.ts`           | What the plugin adds, passed to `definePlugin`                  |
 | `PropertyDrawers/`    | Drawers: each draws one field, wherever it appears              |
-| `Editors/`            | Editors, when you add one: each draws a whole asset of one type |
 | `dist/`               | The build. Commit it, so people who use the module need no Node |

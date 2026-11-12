@@ -29,17 +29,23 @@ namespace ArcaneOnyx.Localization
                 ScriptableDatabaseUtil.GetAllItems<LocalizationLanguage, LocalizationLanguageDatabase>());
 
         /// <summary>
-        /// One entry per key, sorted by key: <c>{ key, id, text, language }</c>, from the item in the earliest of
-        /// <paramref name="languages"/>. An item in a language not listed comes after those that are.
+        /// One entry per key, sorted by key with letter case ignored, as the game matches keys: <c>{ key, id, text,
+        /// language }</c>, from the item in the earliest of <paramref name="languages"/>. An item in a language not listed
+        /// comes after those that are.
         /// </summary>
         internal static JArray Describe(IEnumerable<LocalizationItem> items, IReadOnlyList<LocalizationLanguage> languages)
         {
-            var keys = items
+            Dictionary<LocalizationLanguage, int> places = languages
+                .Select((language, place) => (language, place))
+                .Where(entry => entry.language != null)
+                .GroupBy(entry => entry.language)
+                .ToDictionary(group => group.Key, group => group.First().place);
+            var firstLanguageItems = items
                 .Where(item => item != null && item.HasKey)
                 .GroupBy(item => item.Key)
-                .OrderBy(key => key.Key, StringComparer.Ordinal)
-                .Select(key => key.OrderBy(item => PlaceOf(item.Language, languages)).First());
-            return new JArray(keys.Select(item => new JObject
+                .OrderBy(itemsWithTheKey => itemsWithTheKey.Key, StringComparer.OrdinalIgnoreCase)
+                .Select(itemsWithTheKey => itemsWithTheKey.OrderBy(item => PlaceOf(item.Language, places)).First());
+            return new JArray(firstLanguageItems.Select(item => new JObject
             {
                 ["key"] = item.Key,
                 ["id"] = GlobalObjectId.GetGlobalObjectIdSlow(item).ToString(),
@@ -48,10 +54,7 @@ namespace ArcaneOnyx.Localization
             }));
         }
 
-        private static int PlaceOf(LocalizationLanguage language, IReadOnlyList<LocalizationLanguage> languages)
-        {
-            int place = language == null ? -1 : languages.ToList().IndexOf(language);
-            return place < 0 ? int.MaxValue : place;
-        }
+        private static int PlaceOf(LocalizationLanguage language, Dictionary<LocalizationLanguage, int> places)
+            => language != null && places.TryGetValue(language, out int place) ? place : int.MaxValue;
     }
 }

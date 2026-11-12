@@ -228,11 +228,12 @@ var hefestoModulePlugin = (function(_hefesto_inspector, _hefesto_primitives, rea
 				"."
 			]
 		});
-		const language = chosenKey.language ?? "the first language";
+		const languageSuffix = chosenKey.language !== null ? ` (${chosenKey.language})` : "";
+		const emptyNote = chosenKey.language !== null ? `No text in ${chosenKey.language} yet.` : "No text yet.";
 		return /* @__PURE__ */ (0, react_jsx_runtime.jsx)("span", {
 			role: "note",
 			className: LocalizationKeyDrawer_module_default["muted"],
-			children: chosenKey.text === "" ? `No text in ${language} yet.` : `“${chosenKey.text}”${chosenKey.language !== null ? ` (${chosenKey.language})` : ""}`
+			children: chosenKey.text === "" ? emptyNote : `“${chosenKey.text}”${languageSuffix}`
 		});
 	}
 	function matches(key, search) {
