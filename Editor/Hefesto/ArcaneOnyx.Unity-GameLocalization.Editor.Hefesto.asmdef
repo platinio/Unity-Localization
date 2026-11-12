@@ -1,0 +1,20 @@
+{
+    "name": "ArcaneOnyx.Unity-GameLocalization.Editor.Hefesto",
+    "rootNamespace": "",
+    "references": [
+        "ArcaneOnyx.Unity-GameLocalization.Runtime",
+        "ArcaneOnyx.ScriptableObjectDatabase",
+        "ArcaneOnyx.Hefesto.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,65 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--hf-space-1);
+  min-width: 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: var(--hf-space-2);
+}
+
+.choice {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--hf-space-2);
+  max-height: 22rem;
+  min-width: 20rem;
+}
+
+.list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: auto;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  padding: var(--hf-space-1) var(--hf-space-2);
+  cursor: pointer;
+}
+
+.option:hover,
+.option:focus-visible {
+  background: var(--hf-color-hover);
+}
+
+.option[aria-selected='true'] {
+  background: var(--hf-color-selection);
+  color: var(--hf-color-on-selection);
+}
+
+.search {
+  padding: var(--hf-space-1) var(--hf-space-2);
+}
+
+.muted {
+  color: var(--hf-color-text-muted);
+  font-size: var(--hf-font-size-small);
+}
+
+.problem {
+  margin: 0;
+  color: var(--hf-color-warning);
+  font-size: var(--hf-font-size-small);
+}
