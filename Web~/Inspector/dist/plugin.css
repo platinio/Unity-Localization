@@ -1,23 +1,23 @@
-._field_d2r8m_1 {
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-field {
   display: flex;
   flex-direction: column;
   gap: var(--hf-space-1);
   min-width: 0;
 }
 
-._row_d2r8m_8 {
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-row {
   display: flex;
   align-items: center;
   gap: var(--hf-space-2);
 }
 
-._choice_d2r8m_14 {
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-choice {
   flex: 1;
   min-width: 0;
   text-align: left;
 }
 
-._list_d2r8m_20 {
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-list {
   display: flex;
   flex-direction: column;
   gap: var(--hf-space-2);
@@ -25,40 +25,40 @@
   min-width: 20rem;
 }
 
-._list_d2r8m_20 ul {
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-list ul {
   margin: 0;
   padding: 0;
   list-style: none;
   overflow: auto;
 }
 
-._option_d2r8m_35 {
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-option {
   display: flex;
   flex-direction: column;
   padding: var(--hf-space-1) var(--hf-space-2);
   cursor: pointer;
 }
 
-._option_d2r8m_35:hover,
-._option_d2r8m_35:focus-visible {
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-option:hover,
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-option:focus-visible {
   background: var(--hf-color-hover);
 }
 
-._option_d2r8m_35[aria-selected='true'] {
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-option[aria-selected='true'] {
   background: var(--hf-color-selection);
   color: var(--hf-color-on-selection);
 }
 
-._search_d2r8m_52 {
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-search {
   padding: var(--hf-space-1) var(--hf-space-2);
 }
 
-._muted_d2r8m_56 {
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-muted {
   color: var(--hf-color-text-muted);
   font-size: var(--hf-font-size-small);
 }
 
-._problem_d2r8m_61 {
+.arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-problem {
   margin: 0;
   color: var(--hf-color-warning);
   font-size: var(--hf-font-size-small);

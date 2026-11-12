@@ -1,13 +1,13 @@
 var hefestoModulePlugin = (function(_hefesto_inspector, _hefesto_primitives, react, react_jsx_runtime) {
 	var LocalizationKeyDrawer_module_default = {
-		field: "_field_d2r8m_1",
-		row: "_row_d2r8m_8",
-		choice: "_choice_d2r8m_14",
-		list: "_list_d2r8m_20",
-		option: "_option_d2r8m_35",
-		search: "_search_d2r8m_52",
-		muted: "_muted_d2r8m_56",
-		problem: "_problem_d2r8m_61"
+		field: "arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-field",
+		row: "arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-row",
+		choice: "arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-choice",
+		list: "arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-list",
+		option: "arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-option",
+		search: "arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-search",
+		muted: "arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-muted",
+		problem: "arcaneonyx-localization-PropertyDrawers-LocalizationKeyDrawer-problem"
 	};
 	// PropertyDrawers/localizationKeys.ts
 	var KEYS_REQUEST = "localization.keys";
